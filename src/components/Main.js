@@ -17,8 +17,11 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={about_luciaFalls} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <p>Thank you for visiting my site! I am a technologist in the Pacific Northwest. I got my start by realizing I always gravitated toward data and technical roles in any job, and later learned to automate my administrative roles.
+
+          <br/><br/>I am also a volunteer with <a href="https://www.womenwhocode.com/portland" target="_blank">Women Who Code Portland</a>. My main focus is on making sure there are technical workshops available to attend because they were important to me in my inital journey to become a technologist.
+
+          <br/><br/>In the time I don't spend working, Meetup-ing, or studying, I spend time being obsessed with my boarder collie. If I’m not at work or home, it’s a safe bet I’m on a motorcycle or on the water in a kayak somewhere.</p>
           {close}
         </article>
 
