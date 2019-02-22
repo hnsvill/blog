@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Contact = (props) => (
-    <form method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="Contact" />
+    <form name="Contact" method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field">
+    <input type="hidden" name="bot-field" />
     <div className="field half first">
     <label htmlFor="name">Name</label>
     <input type="text" name="name" id="name" />
